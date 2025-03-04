@@ -4,10 +4,6 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-firstLetterNames(names);
-
-
-// Invoca la funzione qui e stampa il risultato in console
 function firstLetterNames(namesPeople) {
     let arrayLetters = [];
     for (let i = 0; i < namesPeople.length; i++) {
@@ -16,7 +12,10 @@ function firstLetterNames(namesPeople) {
     }
     return arrayLetters;
 }
-console.log(firstLetterNames(names));
 
+
+// Invoca la funzione qui e stampa il risultato in console
+firstLetterNames(names);
+console.log(firstLetterNames(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]

@@ -4,9 +4,6 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-countsVoice(word);
-
-// Invoca la funzione qui e stampa il risultato in console
 function countsVoice(word){
     let voice = 0;
     for(let i=0; i<word.length; i++){
@@ -22,6 +19,8 @@ function countsVoice(word){
     return voice;
 }
 
+// Invoca la funzione qui e stampa il risultato in console
+countsVoice(word);
 console.log(countsVoice(word));
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)

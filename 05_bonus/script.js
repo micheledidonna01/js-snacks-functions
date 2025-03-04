@@ -9,9 +9,6 @@ const nome = 'Mario';
 
 
 // Dichiara la funzione qui.
-saluta(nome);
-
-// Invoca la funzione qui e stampa il risultato in console
 function saluta(persona) {
     const date = new Date();
     const hour = date.getHours();
@@ -24,6 +21,9 @@ function saluta(persona) {
     }
 
 }
+
+// Invoca la funzione qui e stampa il risultato in console
+saluta(nome);
 
 console.log(saluta(nome));
 

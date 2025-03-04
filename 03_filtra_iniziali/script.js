@@ -4,9 +4,6 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-stringWithLetter(names);
-
-// Invoca la funzione qui e stampa il risultato in console
 function stringWithLetter(namesPeople){
     let arrayNames = [];
     for(let i = 0; i < namesPeople.length; i++){
@@ -17,6 +14,10 @@ function stringWithLetter(namesPeople){
     }
     return arrayNames;
 }
+
+
+// Invoca la funzione qui e stampa il risultato in console
+stringWithLetter(names);
 console.log(stringWithLetter(names));
 
 
